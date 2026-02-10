@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613574132F0814B7006826A1 /* FoodWiseWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 613573F22F0814B3006826A1 /* FoodWiseWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		613574B92F082153006826A1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 613574B82F082153006826A1 /* FirebaseFirestore */; };
+		61A116EA2EF19E150077C858 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 61A116E92EF19E150077C858 /* FirebaseAnalytics */; };
+		61A116EC2EF19E150077C858 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 61A116EB2EF19E150077C858 /* FirebaseAuth */; };
+		61A116EE2EF19E150077C858 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 61A116ED2EF19E150077C858 /* FirebaseStorage */; };
+		61A117002EF1A7720077C858 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 61A116FF2EF1A7720077C858 /* FirebaseFirestore */; };
+		61A117642EF1BA920077C858 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61A117632EF1BA920077C858 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		613573FF2F0814B7006826A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71EDE0F2EF189830073E9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613573F12F0814B3006826A1;
+			remoteInfo = "FoodWiseWatchApp Watch App";
+		};
+		613574092F0814B7006826A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71EDE0F2EF189830073E9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613573F12F0814B3006826A1;
+			remoteInfo = "FoodWiseWatchApp Watch App";
+		};
+		613574102F0814B7006826A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71EDE0F2EF189830073E9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613573F12F0814B3006826A1;
+			remoteInfo = "FoodWiseWatchApp Watch App";
+		};
+		E71EDE2A2EF189840073E9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71EDE0F2EF189830073E9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E71EDE162EF189830073E9A3;
+			remoteInfo = FoodWise;
+		};
+		E71EDE342EF189840073E9A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71EDE0F2EF189830073E9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E71EDE162EF189830073E9A3;
+			remoteInfo = FoodWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		613574122F0814B7006826A1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				613574132F0814B7006826A1 /* FoodWiseWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		613573F22F0814B3006826A1 /* FoodWiseWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodWiseWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		613573FE2F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodWiseWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		613574082F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodWiseWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A117632EF1BA920077C858 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		708001BFD175D44E8D7EEE6F /* Pods_FoodWiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodWiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E701838BF3DA50E607C36F /* Pods_FoodWise_FoodWiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodWise_FoodWiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C62D4853159F487C3CA3FC /* Pods_FoodWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71EDE172EF189830073E9A3 /* FoodWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71EDE292EF189840073E9A3 /* FoodWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71EDE332EF189840073E9A3 /* FoodWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		613574A32F081647006826A1 /* Exceptions for "FoodWise" folder in "FoodWiseWatchApp Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DI/DIManager.swift,
+				DI/Injected.swift,
+				Model/KitchenItem.swift,
+				Model/ShoppingModel.swift,
+			);
+			target = 613573F12F0814B3006826A1 /* FoodWiseWatchApp Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		613573F32F0814B3006826A1 /* FoodWiseWatch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodWiseWatch App";
+			sourceTree = "<group>";
+		};
+		613574012F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodWiseWatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6135740B2F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "FoodWiseWatchApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		E71EDE192EF189830073E9A3 /* FoodWise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				613574A32F081647006826A1 /* Exceptions for "FoodWise" folder in "FoodWiseWatchApp Watch App" target */,
+			);
+			path = FoodWise;
+			sourceTree = "<group>";
+		};
+		E71EDE2C2EF189840073E9A3 /* FoodWiseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodWiseTests;
+			sourceTree = "<group>";
+		};
+		E71EDE362EF189840073E9A3 /* FoodWiseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FoodWiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		613573EF2F0814B3006826A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613574B92F082153006826A1 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613573FB2F0814B7006826A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613574052F0814B7006826A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE142EF189830073E9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A116EA2EF19E150077C858 /* FirebaseAnalytics in Frameworks */,
+				61A117002EF1A7720077C858 /* FirebaseFirestore in Frameworks */,
+				61A116EC2EF19E150077C858 /* FirebaseAuth in Frameworks */,
+				61A116EE2EF19E150077C858 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE262EF189840073E9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE302EF189840073E9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A116FE2EF1A7720077C858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C62D4853159F487C3CA3FC /* Pods_FoodWise.framework */,
+				90E701838BF3DA50E607C36F /* Pods_FoodWise_FoodWiseUITests.framework */,
+				708001BFD175D44E8D7EEE6F /* Pods_FoodWiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71EDE0E2EF189830073E9A3 = {
+			isa = PBXGroup;
+			children = (
+				E71EDE192EF189830073E9A3 /* FoodWise */,
+				E71EDE2C2EF189840073E9A3 /* FoodWiseTests */,
+				E71EDE362EF189840073E9A3 /* FoodWiseUITests */,
+				613573F32F0814B3006826A1 /* FoodWiseWatch App */,
+				613574012F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests */,
+				6135740B2F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests */,
+				61A116FE2EF1A7720077C858 /* Frameworks */,
+				E71EDE182EF189830073E9A3 /* Products */,
+				61A117632EF1BA920077C858 /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		E71EDE182EF189830073E9A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E71EDE172EF189830073E9A3 /* FoodWise.app */,
+				E71EDE292EF189840073E9A3 /* FoodWiseTests.xctest */,
+				E71EDE332EF189840073E9A3 /* FoodWiseUITests.xctest */,
+				613573F22F0814B3006826A1 /* FoodWiseWatchApp Watch App.app */,
+				613573FE2F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests.xctest */,
+				613574082F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		613573F12F0814B3006826A1 /* FoodWiseWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6135741A2F0814B7006826A1 /* Build configuration list for PBXNativeTarget "FoodWiseWatchApp Watch App" */;
+			buildPhases = (
+				613573EE2F0814B3006826A1 /* Sources */,
+				613573EF2F0814B3006826A1 /* Frameworks */,
+				613573F02F0814B3006826A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				613573F32F0814B3006826A1 /* FoodWiseWatch App */,
+			);
+			name = "FoodWiseWatchApp Watch App";
+			packageProductDependencies = (
+				613574B82F082153006826A1 /* FirebaseFirestore */,
+			);
+			productName = "FoodWiseWatchApp Watch App";
+			productReference = 613573F22F0814B3006826A1 /* FoodWiseWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		613573FD2F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6135741B2F0814B7006826A1 /* Build configuration list for PBXNativeTarget "FoodWiseWatchApp Watch AppTests" */;
+			buildPhases = (
+				613573FA2F0814B7006826A1 /* Sources */,
+				613573FB2F0814B7006826A1 /* Frameworks */,
+				613573FC2F0814B7006826A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613574002F0814B7006826A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				613574012F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests */,
+			);
+			name = "FoodWiseWatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "FoodWiseWatchApp Watch AppTests";
+			productReference = 613573FE2F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		613574072F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6135741C2F0814B7006826A1 /* Build configuration list for PBXNativeTarget "FoodWiseWatchApp Watch AppUITests" */;
+			buildPhases = (
+				613574042F0814B7006826A1 /* Sources */,
+				613574052F0814B7006826A1 /* Frameworks */,
+				613574062F0814B7006826A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6135740A2F0814B7006826A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6135740B2F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests */,
+			);
+			name = "FoodWiseWatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "FoodWiseWatchApp Watch AppUITests";
+			productReference = 613574082F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E71EDE162EF189830073E9A3 /* FoodWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71EDE3D2EF189840073E9A3 /* Build configuration list for PBXNativeTarget "FoodWise" */;
+			buildPhases = (
+				E71EDE132EF189830073E9A3 /* Sources */,
+				E71EDE142EF189830073E9A3 /* Frameworks */,
+				E71EDE152EF189830073E9A3 /* Resources */,
+				613574122F0814B7006826A1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613574112F0814B7006826A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E71EDE192EF189830073E9A3 /* FoodWise */,
+			);
+			name = FoodWise;
+			packageProductDependencies = (
+				61A116E92EF19E150077C858 /* FirebaseAnalytics */,
+				61A116EB2EF19E150077C858 /* FirebaseAuth */,
+				61A116ED2EF19E150077C858 /* FirebaseStorage */,
+				61A116FF2EF1A7720077C858 /* FirebaseFirestore */,
+			);
+			productName = FoodWise;
+			productReference = E71EDE172EF189830073E9A3 /* FoodWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E71EDE282EF189840073E9A3 /* FoodWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71EDE402EF189840073E9A3 /* Build configuration list for PBXNativeTarget "FoodWiseTests" */;
+			buildPhases = (
+				E71EDE252EF189840073E9A3 /* Sources */,
+				E71EDE262EF189840073E9A3 /* Frameworks */,
+				E71EDE272EF189840073E9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71EDE2B2EF189840073E9A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E71EDE2C2EF189840073E9A3 /* FoodWiseTests */,
+			);
+			name = FoodWiseTests;
+			productName = FoodWiseTests;
+			productReference = E71EDE292EF189840073E9A3 /* FoodWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E71EDE322EF189840073E9A3 /* FoodWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71EDE432EF189840073E9A3 /* Build configuration list for PBXNativeTarget "FoodWiseUITests" */;
+			buildPhases = (
+				E71EDE2F2EF189840073E9A3 /* Sources */,
+				E71EDE302EF189840073E9A3 /* Frameworks */,
+				E71EDE312EF189840073E9A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71EDE352EF189840073E9A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E71EDE362EF189840073E9A3 /* FoodWiseUITests */,
+			);
+			name = FoodWiseUITests;
+			productName = FoodWiseUITests;
+			productReference = E71EDE332EF189840073E9A3 /* FoodWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71EDE0F2EF189830073E9A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					613573F12F0814B3006826A1 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					613573FD2F0814B7006826A1 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 613573F12F0814B3006826A1;
+					};
+					613574072F0814B7006826A1 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 613573F12F0814B3006826A1;
+					};
+					E71EDE162EF189830073E9A3 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					E71EDE282EF189840073E9A3 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E71EDE162EF189830073E9A3;
+					};
+					E71EDE322EF189840073E9A3 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E71EDE162EF189830073E9A3;
+					};
+				};
+			};
+			buildConfigurationList = E71EDE122EF189830073E9A3 /* Build configuration list for PBXProject "FoodWise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E71EDE0E2EF189830073E9A3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E71EDE182EF189830073E9A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71EDE162EF189830073E9A3 /* FoodWise */,
+				E71EDE282EF189840073E9A3 /* FoodWiseTests */,
+				E71EDE322EF189840073E9A3 /* FoodWiseUITests */,
+				613573F12F0814B3006826A1 /* FoodWiseWatchApp Watch App */,
+				613573FD2F0814B7006826A1 /* FoodWiseWatchApp Watch AppTests */,
+				613574072F0814B7006826A1 /* FoodWiseWatchApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		613573F02F0814B3006826A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613573FC2F0814B7006826A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613574062F0814B7006826A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE152EF189830073E9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A117642EF1BA920077C858 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE272EF189840073E9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE312EF189840073E9A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613573EE2F0814B3006826A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613573FA2F0814B7006826A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613574042F0814B7006826A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE132EF189830073E9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE252EF189840073E9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71EDE2F2EF189840073E9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		613574002F0814B7006826A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 613573F12F0814B3006826A1 /* FoodWiseWatchApp Watch App */;
+			targetProxy = 613573FF2F0814B7006826A1 /* PBXContainerItemProxy */;
+		};
+		6135740A2F0814B7006826A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 613573F12F0814B3006826A1 /* FoodWiseWatchApp Watch App */;
+			targetProxy = 613574092F0814B7006826A1 /* PBXContainerItemProxy */;
+		};
+		613574112F0814B7006826A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 613573F12F0814B3006826A1 /* FoodWiseWatchApp Watch App */;
+			targetProxy = 613574102F0814B7006826A1 /* PBXContainerItemProxy */;
+		};
+		E71EDE2B2EF189840073E9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E71EDE162EF189830073E9A3 /* FoodWise */;
+			targetProxy = E71EDE2A2EF189840073E9A3 /* PBXContainerItemProxy */;
+		};
+		E71EDE352EF189840073E9A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E71EDE162EF189830073E9A3 /* FoodWise */;
+			targetProxy = E71EDE342EF189840073E9A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		613574142F0814B7006826A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodWiseWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cz.mendelu.xhalachk.FoodWise;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWise.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		613574152F0814B7006826A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodWiseWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = cz.mendelu.xhalachk.FoodWise;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWise.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		613574162F0814B7006826A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.mendelu.FoodWiseWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWiseWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodWiseWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		613574172F0814B7006826A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.mendelu.FoodWiseWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWiseWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodWiseWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		613574182F0814B7006826A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.mendelu.FoodWiseWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FoodWiseWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		613574192F0814B7006826A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.mendelu.FoodWiseWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FoodWiseWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		E71EDE3B2EF189840073E9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E71EDE3C2EF189840073E9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E71EDE3E2EF189840073E9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I neeed acces to you camera for scanning receipes";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "I neeed acces to you galety for scanning receipes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E71EDE3F2EF189840073E9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I neeed acces to you camera for scanning receipes";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "I neeed acces to you galety for scanning receipes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E71EDE412EF189840073E9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodWise";
+			};
+			name = Debug;
+		};
+		E71EDE422EF189840073E9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodWise";
+			};
+			name = Release;
+		};
+		E71EDE442EF189840073E9A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodWise;
+			};
+			name = Debug;
+		};
+		E71EDE452EF189840073E9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH8QP5358H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.mendelu.xhalachk.FoodWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6135741A2F0814B7006826A1 /* Build configuration list for PBXNativeTarget "FoodWiseWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613574142F0814B7006826A1 /* Debug */,
+				613574152F0814B7006826A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6135741B2F0814B7006826A1 /* Build configuration list for PBXNativeTarget "FoodWiseWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613574162F0814B7006826A1 /* Debug */,
+				613574172F0814B7006826A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6135741C2F0814B7006826A1 /* Build configuration list for PBXNativeTarget "FoodWiseWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613574182F0814B7006826A1 /* Debug */,
+				613574192F0814B7006826A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71EDE122EF189830073E9A3 /* Build configuration list for PBXProject "FoodWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71EDE3B2EF189840073E9A3 /* Debug */,
+				E71EDE3C2EF189840073E9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71EDE3D2EF189840073E9A3 /* Build configuration list for PBXNativeTarget "FoodWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71EDE3E2EF189840073E9A3 /* Debug */,
+				E71EDE3F2EF189840073E9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71EDE402EF189840073E9A3 /* Build configuration list for PBXNativeTarget "FoodWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71EDE412EF189840073E9A3 /* Debug */,
+				E71EDE422EF189840073E9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71EDE432EF189840073E9A3 /* Build configuration list for PBXNativeTarget "FoodWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71EDE442EF189840073E9A3 /* Debug */,
+				E71EDE452EF189840073E9A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		613574B82F082153006826A1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		61A116E92EF19E150077C858 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		61A116EB2EF19E150077C858 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		61A116ED2EF19E150077C858 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		61A116FF2EF1A7720077C858 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A116E82EF19E150077C858 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E71EDE0F2EF189830073E9A3 /* Project object */;
+}
