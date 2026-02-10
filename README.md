@@ -1,4 +1,3 @@
-FoodWise
 FoodWise je inteligentní iOS aplikace navržená pro efektivní správu domácích zásob potravin, redukci plýtvání a zjednodušení nakupování. Využívá umělou inteligenci pro generování receptů a analýzu statistik spotřeby.
 
 Hlavní funkce:
